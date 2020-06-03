@@ -14,9 +14,10 @@
     float:left;
     width: 400px;
     font-size: 15px;
-    background-color: #ffff;
+    background-color: #ffff
+        ;
     height: 35px;
-    margin-left: 100px;
+    margin-left: 45px;
     margin-bottom: 20px;
     font-family: monospace;
 }
@@ -56,9 +57,9 @@ ul {
 
 li a {
     float: left;
-    margin-left: 25;
+    margin-left: 0;
     display: block;
-    background-color: #808080;
+    background-color: #ebebeb;
     border-style: solid;
     border-color: black;
     padding: 4.5px;       
