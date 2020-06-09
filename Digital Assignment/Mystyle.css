@@ -25,9 +25,10 @@
     float: left;
     margin-left: 0px;
     width: 600px;
-    font-size: 50;
+    font-size: 20;
     height: 635px;
-    font-family: monospace;
+    font-family: cursive;
+    text-align: center;
     background-color: #40c9a2;
     
 }
