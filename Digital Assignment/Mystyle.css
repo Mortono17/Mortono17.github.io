@@ -19,21 +19,22 @@
     height: 35px;
     margin-left: 45px;
     margin-bottom: 20px;
-    font-family: monospace;
+    margin-top: 20px;
+    font-family: monospace; 
 }
 .maintext {
     float: left;
     margin-left: 0px;
     width: 600px;
     font-size: 20;
-    height: 635px;
+    height: 615px;
     font-family: cursive;
     text-align: center;
     background-color: #40c9a2;
     
 }
 .mainbody {
-    float: right;
+    float: right; 
     width: 730px;
     height: 800px;
     background-color: #2f9c95;
