@@ -1,5 +1,5 @@
 .header {
-    width: 600px;
+    width: 600px; 
     height: 110px;
     font-size: 30px;
     font-family: monospace;
@@ -17,7 +17,7 @@
     background-color: #ffff
         ;
     height: 35px;
-    margin-left: 45px;
+    margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: monospace; 
