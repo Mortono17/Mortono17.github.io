@@ -1,28 +1,27 @@
 .header {
-    width: 600px;    /*Comments*/
-    height: 110px;
-    font-size: 30px;
-    font-family: monospace;
-    font-style: normal;
-    text-align: center;
-    background-color: #a3f7b5;  
-    margin-bottom: 0px;    
-    text-shadow: 0px 0px 1px;
+    width: 600px;   /*Changes Width of the .header Box (Measured in Pixels)*/
+    height: 110px;   /*Changes Height of the .header Box (Measured in Pixels)*/
+    font-size: 30px;     /*Size of the Text Font*/
+    font-family: monospace;     /*The family of which my font is related to*/
+    font-style: normal;         
+    text-align: center;         /*This alligns the text to the centre of the .header Box*/
+    background-color: #a3f7b5;      /*Changes background color of the Box*/
+    margin-bottom: 0px;         /*Changes the size between .header and the .nav*/
+    text-shadow: 0px 0px 1px;   /*Shadows the text to add emphasis*/
     
 }
 .nav {
-    float:left;
+    float:left;     /*Makes it so .nav (Navigation) Box is located on the left side of the website.*/
     width: 400px;
     font-size: 15px;
-    background-color: #ffff
-        ;
+    background-color: #ffff;
     height: 35px;
     margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
-    font-family: monospace; 
+    font-family: monospace;      /*Comment about each class*/
 }
-.maintext {
+.maintext {         /*This class controls the main content which stores all the information about the topic for that certain pages*/
     float: left;
     margin-left: 0px;
     width: 600px;
@@ -33,7 +32,7 @@
     background-color: #40c9a2;
     
 }
-.mainbody {
+.mainbody {         /*This class holds the picture that is on the right side of the page which corresponds to the main text on the left hand side*/
     float: right; 
     width: 730px;
     height: 800px;
@@ -44,33 +43,33 @@
 }
 @media screen and (max-width: 1000px) { .header, .nav, .maintext, .mainbody, .container {
     width: 100%;
-    margin-left: 0;
+    margin-left: 0;            /*Makes it so that the web page is able to fit multiple screen resolutions*/
     margin-right: 0;
     
     }        
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none;   /*This controls whether or not a bullet point is added to a link in navigation*/
     width: 800px;
-    margin: 0;
+    margin: 0;                  
     padding: 0;  
 }
 
-li a {
+li a {      /*This controls the list format such as sizing and text of the navigation links*/
     float: left;
     margin-left: 0;
     display: block;
     background-color: #ebebeb;
     border-style: solid;
     border-color: black;
-    padding: 4.5px;       
+    padding: 4.5px;     /*Changes the space between each link*/       
 }
 
 li a:hover {
-    background-color: lightblue;   
+    background-color: lightblue;    /*When hovering over a link in the navigation class the links will change colour to indicate it's clickable */  
 }
 body {
-    background-color: #e5f9eO;
+    background-color: #e5f9eO;      /*Allows me to change the background color of the whole webpage*/
 }
     
